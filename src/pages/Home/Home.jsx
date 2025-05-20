@@ -11,13 +11,11 @@ import Footer from "../../layout/Footer";
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <CategorySection />
       <GallerySection />
       <HeroSection />
       <InspirationSlider />
       <ProductGrid />
-      <Footer />
     </div>
   );
 };
