@@ -83,7 +83,7 @@ function Footer() {
       <div className="w-[80%] mx-auto">
         <hr className="my-6 border-t-2 border-gray-300" />
         <div className="copyright mb-10 mt-3 text-gray-400">
-          <h6>© 2025 Developed by P I Y U $ H</h6>
+          <h6>© 2025 Developed by Piyush Soni, Praver Jain and Tripta Sharma</h6>
         </div>
       </div>
     </div>
