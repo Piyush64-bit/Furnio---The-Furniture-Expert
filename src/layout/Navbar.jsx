@@ -17,10 +17,10 @@ function BasicExample() {
 
           <div className="nav-middle font-semibold">
             <Nav className="me-auto flex gap-4">
-              <Nav.Link href="#home" className="text-black">Home</Nav.Link>
-              <Nav.Link href="#link" className="text-black">Shop</Nav.Link>
-              <Nav.Link href="#link" className="text-black">About</Nav.Link>
-              <Nav.Link href="#link" className="text-black">Contact</Nav.Link>
+              <Nav.Link href="/" className="text-black">Home</Nav.Link>
+              <Nav.Link href="/Shop" className="text-black">Shop</Nav.Link>
+              <Nav.Link href="/About" className="text-black">About</Nav.Link>
+              <Nav.Link href="/Contact" className="text-black">Contact</Nav.Link>
             </Nav> {}
           </div>
 
