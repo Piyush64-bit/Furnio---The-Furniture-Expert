@@ -16,7 +16,7 @@ function BasicExample() {
           </div>
 
           <div className="nav-middle font-semibold">
-            <Nav className="me-auto flex gap-4">
+            <Nav className="me-auto flex sm:gap-4 gap-2">
               <Nav.Link href="/" className="text-black">Home</Nav.Link>
               <Nav.Link href="/Shop" className="text-black">Shop</Nav.Link>
               <Nav.Link href="/About" className="text-black">About</Nav.Link>
@@ -24,7 +24,7 @@ function BasicExample() {
             </Nav> {}
           </div>
 
-          <div className="nav-right flex gap-10 items-center cursor-pointer">
+          <div className="nav-right flex md:gap-10 sm:gap-6 gap-4 items-center cursor-pointer">
             <Person2OutlinedIcon />
             <SearchOutlinedIcon />
             <FavoriteBorderOutlinedIcon />
