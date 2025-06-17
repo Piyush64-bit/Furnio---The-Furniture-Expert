@@ -4,8 +4,8 @@ function Footer() {
   return (
     <div className="footer">
       <hr className="my-6 border-t-2 border-gray-300" />
-      <div className="footer-wrapper flex justify-center leading-loose">
-        <div className="firstpart mr-24">
+      <div className="footer-wrapper flex flex-col lg:flex-row lg:justify-center items-center lg:items-start leading-loose">
+        <div className="firstpart mb-8 lg:mb-0 lg:mr-16 xl:mr-24 text-center lg:text-left">
           <h3 className="mb-4">Funiro.</h3>
           <p className="text-gray-400">
             400 University Drive Suite 200 Coral <br />
@@ -14,7 +14,7 @@ function Footer() {
           </p>
         </div>
 
-        <div className="secondpart mr-24">
+        <div className="secondpart mb-8 lg:mb-0 lg:mr-16 xl:mr-24 text-center lg:text-left">
           <ul>
             <li className="mb-4 font-semibold text-gray-400">Links</li>
             <li className="mb-4 font-semibold">
@@ -40,7 +40,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="thridpart mr-24">
+        <div className="thridpart mb-8 lg:mb-0 lg:mr-16 xl:mr-24 text-center lg:text-left">
           <ul>
             <li className="mb-4 font-semibold text-gray-400">Help</li>
             <li className="mb-4 font-semibold">
@@ -61,17 +61,17 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="forthpart mr-24">
+        <div className="forthpart mb-8 lg:mb-0 text-center lg:text-left">
           <ul>
             <li className="mb-4 font-semibold text-gray-400">Newsletter</li>
             <li className="mb-2">
-              <div className="flex gap-2">
+              <div className="flex flex-col sm:flex-row gap-2 items-center">
                 <input
                   type="email"
                   placeholder="Enter Your Email Address"
-                  className="border-b border-black outline-none px-4 py-2 w-64"
+                  className="border-b border-black outline-none px-4 py-2 w-full sm:w-64"
                 />
-                <button className="border-b border-black font-semibold px-4 py-2">
+                <button className="border-b border-black font-semibold px-4 py-2 w-full sm:w-auto">
                   SUBSCRIBE
                 </button>
               </div>
