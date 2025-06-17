@@ -5,7 +5,6 @@ function Footer() {
     <div className="footer px-4 overflow-x-hidden">
       <hr className="my-6 border-t-2 border-gray-300" />
       <div className="footer-wrapper flex flex-col lg:flex-row lg:justify-center items-center lg:items-start leading-loose">
-        {/* First Part */}
         <div className="firstpart mb-8 lg:mb-0 lg:mr-16 xl:mr-24 text-center lg:text-left">
           <h3 className="mb-4">Funiro.</h3>
           <p className="text-gray-400">
@@ -15,7 +14,6 @@ function Footer() {
           </p>
         </div>
 
-        {/* Second Part */}
         <div className="secondpart mb-8 lg:mb-0 lg:mr-16 xl:mr-24 text-center lg:text-left">
           <ul>
             <li className="mb-4 font-semibold text-gray-400">Links</li>
@@ -34,7 +32,6 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Third Part */}
         <div className="thridpart mb-8 lg:mb-0 lg:mr-16 xl:mr-24 text-center lg:text-left">
           <ul>
             <li className="mb-4 font-semibold text-gray-400">Help</li>
@@ -50,7 +47,6 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Fourth Part */}
         <div className="forthpart mb-8 lg:mb-0 text-center lg:text-left">
           <ul>
             <li className="mb-4 font-semibold text-gray-400">Newsletter</li>
