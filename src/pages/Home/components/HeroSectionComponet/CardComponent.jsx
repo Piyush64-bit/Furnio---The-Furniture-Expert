@@ -4,8 +4,8 @@ import Card from "react-bootstrap/Card";
 function CardComponent({ img, title, description, price, oldPrice }) {
   return (
     <div
-      className="relative group overflow-hidden"
-      style={{ width: "19rem", marginBottom: "20px" }}
+      className="relative group overflow-hidden mb-5 w-full sm:w-auto sm:max-w-[19rem]"
+      style={{ marginBottom: "20px" }}
     >
       {/* Card Content */}
       <Card className="transition duration-300 group-hover:opacity-80">
