@@ -72,16 +72,16 @@ This project is proudly built under the expert guidance of
 
 Here are some screenshots of the Furnio Project:
 
-<div align="center">
-  <img src="screenshot/ss1.png" alt="Homepage" width="45%" style="margin-right: 10px;"/>
-  <img src="screenshot/ss2.png" alt="Gallery" width="45%"/>
+<div align="center" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+  <img src="screenshot/ss1.png" alt="Homepage" width="25%" />
+  <img src="screenshot/ss2.png" alt="Gallery" width="25%" />
 </div>
 
 <br/>
 
-<div align="center">
-  <img src="screenshot/ss3.png" alt="Product Details" width="45%" style="margin-right: 10px;"/>
-  <img src="screenshot/ss4.png" alt="Cart Page" width="45%"/>
+<div align="center" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+  <img src="screenshot/ss3.png" alt="Product Details" width="25%" />
+  <img src="screenshot/ss4.png" alt="Cart Page" width="25%" />
 </div>
 ---
 
