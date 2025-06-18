@@ -1,4 +1,3 @@
-// src/pages/Home/components/HeroSection.jsx
 import React from "react";
 import CardComponent from "./HeroSectionComponet/CardComponent";
 
@@ -67,11 +66,13 @@ function HeroSection() {
   ];
 
   return (
-    <div className="HeroSection-wrapper mt-5 mb-20">
-      <div className="heading flex justify-center">
-        <h2>Our Products</h2>
+    <div className="HeroSection-wrapper mt-5 mb-20 px-4">
+      <div className="heading flex justify-center text-center">
+        <h2 className="text-2xl font-semibold">Our Products</h2>
       </div>
-      <div className="product-list flex flex-wrap justify-center gap-4 mt-4">
+
+      {/* Responsive grid layout */}
+      <div className="product-list grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
         {products.map((product, index) => (
           <CardComponent
             key={index}
@@ -83,7 +84,9 @@ function HeroSection() {
           />
         ))}
       </div>
-      <div className="bottombutton flex justify-center">
+
+      {/* Show More Button */}
+      <div className="bottombutton flex justify-center mt-8">
         <button className="py-2 px-10 border-2 border-[#B88E2F] text-[#B88E2F] font-bold hover:bg-[#B88E2F] hover:text-white transition duration-300">
           Show More
         </button>
