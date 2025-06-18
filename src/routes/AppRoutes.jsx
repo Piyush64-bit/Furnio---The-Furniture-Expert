@@ -7,6 +7,7 @@ import Blog from '../pages/Blog/Blog';
 import Contact from '../pages/Contact/Contact';
 import Shop from '../pages/Shop/Shop';
 import Cart from '../pages/Cart/Cart';
+import Single_Product from '../pages/Single_Product/Single_Product'
 
 const AppRoutes = () => {
   return (
@@ -19,6 +20,7 @@ const AppRoutes = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<Cart/>} />
+        <Route path="/product" element={<Single_Product/>} />
       </Route>
     </Routes>
   );
