@@ -72,10 +72,10 @@ This project is proudly built under the expert guidance of
 
 Here are some screenshots of the Furnio Project:
 
-![Homepage Preview](./assets/ScreenShots/ss1.png)
-![Product Gallery](./assets/ScreenShots/ss2.png)
-![Product Details](./assets/ScreenShots/ss3.png)
-![Cart Page](./assets/ScreenShots/ss4.png)
+![Homepage Preview](./assets/screenshot/ss1.png)
+![Product Gallery](./assets/screenshot/ss2.png)
+![Product Details](./assets/screenshot/ss3.png)
+![Cart Page](./assets/screenshot/ss4.png)
 
 ---
 
