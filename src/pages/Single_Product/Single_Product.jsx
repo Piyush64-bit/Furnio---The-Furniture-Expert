@@ -1,8 +1,17 @@
 import React from 'react'
+import Location from './components/Location'
+import Product from './components/Product'
+import Description from './components/Description'
+import Otherprods from './components/Otherprods'
 
 const Single_Product = () => {
   return (
-    <div>Single_Product</div>
+    <div>
+      <Location/>
+      <Product/>
+      <Description/>
+      <Otherprods/>
+    </div>
   )
 }
 

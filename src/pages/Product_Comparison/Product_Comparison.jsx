@@ -1,8 +1,17 @@
 import React from 'react'
+import Location from './components/Location'
+import Products from './components/Products'
+import Comparison from './components/Comparison'
+import Quality_assurance from './components/Quality_assurance'
 
 const Product_Comparison = () => {
   return (
-    <div>Product_Comparison</div>
+    <div>
+      <Location/>
+      <Products/>
+      <Comparison/>
+      <Quality_assurance/>
+    </div>
   )
 }
 
