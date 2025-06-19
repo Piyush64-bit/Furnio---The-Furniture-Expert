@@ -8,7 +8,7 @@ import Contact from '../pages/Contact/Contact';
 import Shop from '../pages/Shop/Shop';
 import Cart from '../pages/Cart/Cart';
 import Single_Product from '../pages/Single_Product/Single_Product'
-
+import Product_Comparison from '../pages/Product_Comparison/Product_Comparison'
 const AppRoutes = () => {
   return (
     <Routes>
@@ -21,6 +21,7 @@ const AppRoutes = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<Cart/>} />
         <Route path="/product" element={<Single_Product/>} />
+        <Route path="/comparison" element={<Product_Comparison/>} />
       </Route>
     </Routes>
   );
