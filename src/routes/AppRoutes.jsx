@@ -7,6 +7,9 @@ import Blog from '../pages/Blog/Blog';
 import Contact from '../pages/Contact/Contact';
 import Shop from '../pages/Shop/Shop';
 import Cart from '../pages/Cart/Cart';
+import Login from '../pages/Auth/Login';
+import Register from '../pages/Auth/Register';
+import Profile from '../pages/Profile/Profile';
 
 const AppRoutes = () => {
   return (
@@ -19,6 +22,9 @@ const AppRoutes = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<Cart/>} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/register" element={<Register/>} />
+        <Route path="/profile" element={<Profile/>} />
       </Route>
     </Routes>
   );

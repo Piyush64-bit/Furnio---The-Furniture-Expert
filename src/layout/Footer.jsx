@@ -8,7 +8,7 @@ function Footer() {
       <div className="footer-wrapper flex flex-col lg:flex-row lg:justify-center items-center lg:items-start leading-relaxed sm:leading-loose">
         {/* Address */}
         <div className="firstpart mb-6 sm:mb-8 lg:mb-0 lg:mr-16 xl:mr-24 text-center lg:text-left">
-          <h3 className="mb-2 sm:mb-4 text-lg sm:text-xl">Funiro.</h3>
+          <h3 className="mb-2 sm:mb-4 text-lg sm:text-xl">Furnio.</h3>
           <p className="text-gray-400 text-xs sm:text-sm">
             400 University Drive Suite 200 Coral <br />
             Gables, <br />
