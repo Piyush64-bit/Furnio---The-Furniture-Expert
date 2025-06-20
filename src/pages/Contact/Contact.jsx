@@ -1,7 +1,16 @@
-import React from "react";
+import React from 'react'
+import Location from './components/Location'
+import Quality_assurance from './components/Quality_assurance'
+import Cont from './components/Cont'
 
 const Contact = () => {
-  return <div>Contact</div>;
-};
+  return (
+    <div>
+      <Location/>
+      <Cont/>
+      <Quality_assurance/>
+    </div>
+  )
+}
 
-export default Contact;
+export default Contact

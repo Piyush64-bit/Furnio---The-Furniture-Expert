@@ -12,6 +12,7 @@ import Register from '../pages/Auth/Register';
 import Profile from '../pages/Profile/Profile';
 import Single_Product from '../pages/Single_Product/Single_Product';
 import Product_Comparison from '../pages/Product_Comparison/Product_Comparison';
+import CheckOut from '../pages/CheckOut/CheckOut'
 
 const AppRoutes = () => {
   return (
@@ -29,6 +30,8 @@ const AppRoutes = () => {
         <Route path="/profile" element={<Profile />} />
         <Route path="/product" element={<Single_Product />} />
         <Route path="/comparison" element={<Product_Comparison />} />
+        <Route path="/checkout" element={<CheckOut/>} />
+
       </Route>
     </Routes>
   );
