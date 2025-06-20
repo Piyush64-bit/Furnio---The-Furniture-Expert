@@ -9,18 +9,33 @@
   transition: color 0.3s ease;
 }
 
-.btn:hover {
-  transition: all 0.3s ease;
+.btn {
+  transition: all 0.3s ease !important;
 }
 
-.btn-dark:hover {
-  background-color: #a2771f !important;
-  border-color: #a2771f !important;
+.btn-outline-dark {
+  color: #212529;
+  border-color: #212529;
 }
 
 .btn-outline-dark:hover {
-  background-color: #f1f1f1 !important;
+  background-color: #B88E2F !important;
+  color: white !important;
+  border-color: #a2771f !important;
 }
+
+.btn-dark {
+  background-color: #B88E2F;
+  border-color: #B88E2F;
+  color: white;
+}
+
+.btn-dark:hover {
+  background-color: white !important;
+  color: #B88E2F !important;
+  border-color: #B88E2F !important;
+}
+
 
 .nav-hover:hover {
   color: #B88E2F;
