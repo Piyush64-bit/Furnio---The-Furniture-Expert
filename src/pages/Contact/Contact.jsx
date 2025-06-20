@@ -1,14 +1,9 @@
-import React from "react";
-import Location from "../../components/Location"
-import Quality_assurance from "../../components/Quality_assurance";
+import React from 'react'
 
 const Contact = () => {
   return (
-  <div>
-    <p>hello</p>
-    <Location/>
-    contact page
-    <Quality_assurance/>
-  </div>
-  );
+    <div>Contact</div>
+  )
 }
+
+export default Contact
