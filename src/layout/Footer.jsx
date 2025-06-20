@@ -22,10 +22,10 @@ function Footer() {
           <div className="secondpart text-center lg:text-left">
             <ul>
               <li className="mb-1 sm:mb-4 font-semibold text-gray-400 text-xs sm:text-sm">Links</li>
-              <li className="mb-1 sm:mb-2 font-semibold"><a href="#" className="text-black">Home</a></li>
-              <li className="mb-1 sm:mb-2 font-semibold"><a href="#" className="text-black">Shop</a></li>
-              <li className="mb-1 sm:mb-2 font-semibold"><a href="#" className="text-black">About</a></li>
-              <li className="font-semibold"><a href="#" className="text-black">Contact</a></li>
+              <li className="mb-1 sm:mb-2 font-semibold"><a href="/" className="text-black">Home</a></li>
+              <li className="mb-1 sm:mb-2 font-semibold"><a href="/shop" className="text-black">Shop</a></li>
+              <li className="mb-1 sm:mb-2 font-semibold"><a href="/blog" className="text-black">Blog</a></li>
+              <li className="font-semibold"><a href="/contact" className="text-black">Contact</a></li>
             </ul>
           </div>
 
@@ -64,7 +64,7 @@ function Footer() {
       <div className="w-full sm:w-[80%] mx-auto text-center">
         <hr className="my-4 sm:my-6 border-t-2 border-gray-300" />
         <div className="copyright mb-6 sm:mb-10 mt-2 text-gray-400 text-xs sm:text-sm">
-          <h6>2025 furnio. All rights reserved</h6>
+          <h6>© 2025 | A collaborative creation by Piyush Soni & Praver Jain</h6>
         </div>
       </div>
     </div>
