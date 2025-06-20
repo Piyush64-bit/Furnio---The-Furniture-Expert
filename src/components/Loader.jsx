@@ -10,7 +10,7 @@ const Loader = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.3 }}
+      transition={{ duration: 0.4 }}
     >
       <PropagateLoader color="#B88E2F" size={15} />
       <p className="mt-4 text-sm text-gray-600 dark:text-gray-300 font-medium">
