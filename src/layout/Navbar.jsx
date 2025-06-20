@@ -27,13 +27,12 @@ function BasicExample() {
         {/* Collapsible Section */}
         <Navbar.Collapse id="basic-navbar-nav" className="mt-3 mt-lg-0">
           <div className="d-flex flex-column flex-lg-row align-items-center w-100">
-
             {/* Left - Empty Spacer (to balance) */}
             <div className="d-none d-lg-flex justify-content-start flex-grow-1" />
 
             {/* Center - Nav Links */}
-            <div className="d-flex justify-content-center  flex-grow-1 order-2 order-lg-1 mb-3 mb-lg-0">
-              <Nav className="flex-column flex-lg-row text-center gap-2 gap-lg-4">
+            <div className="position-absolute start-50 translate-middle-x d-none d-lg-flex">
+              <Nav className="flex-row text-center gap-4">
                 {["Home", "Shop", "About", "Contact"].map((item) => (
                   <Nav.Link
                     key={item}
@@ -79,7 +78,6 @@ function BasicExample() {
                 </Link>
               </div>
             </div>
-
           </div>
         </Navbar.Collapse>
       </Container>
