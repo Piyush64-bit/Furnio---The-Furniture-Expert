@@ -26,13 +26,12 @@ This project is proudly built under the expert guidance of
 
 ---
 
-## 👨‍💻 Meet the Team
+## 👨‍💻 Meet the Duo
 
 | 👤 Name           | 🏷️ GitHub Username                |
-|-------------------|-----------------------------------|
+|-------------------|------------------------------------|
 | Piyush Soni       | [piyush64-bit](https://github.com/piyush64-bit)         |
 | Praver            | [solelyprav](https://github.com/solelyprav)             |
-| Tripta Sharma     | [TriptaSharma8000](https://github.com/TriptaSharma8000) |
 
 ---
 
