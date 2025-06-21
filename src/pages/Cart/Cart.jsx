@@ -1,7 +1,7 @@
 import React from 'react'
-import Location from './components/location'
-import Cart_products from './components/cart_products'
-import Quality_assurance from './components/quality_assurance'
+import Location from './components/Location'
+import Cart_products from './components/Cart_products'
+import Quality_assurance from './components/Quality_assurance'
 
 const Cart = () => {
   return (
