@@ -31,11 +31,9 @@ function CategorySection() {
           </p>
         </div>
 
-        <div className="button">
-          <button className="bg-[#B88E2F] text-white px-6 py-3 font-semibold hover:bg-[#a5761f] transition">
-            Buy Now
-          </button>
-        </div>
+        <button className="bg-[#B88E2F] text-white px-6 py-3 font-semibold hover:bg-[#a5761f] transition">
+          Buy Now
+        </button>
       </div>
     </div>
   );

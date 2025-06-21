@@ -26,13 +26,12 @@ This project is proudly built under the expert guidance of
 
 ---
 
-## 👨‍💻 Meet the Team
+## 👨‍💻 Meet the Duo
 
 | 👤 Name           | 🏷️ GitHub Username                |
-|-------------------|-----------------------------------|
+|-------------------|------------------------------------|
 | Piyush Soni       | [piyush64-bit](https://github.com/piyush64-bit)         |
 | Praver            | [solelyprav](https://github.com/solelyprav)             |
-| Tripta Sharma     | [TriptaSharma8000](https://github.com/TriptaSharma8000) |
 
 ---
 
@@ -72,11 +71,17 @@ This project is proudly built under the expert guidance of
 
 Here are some screenshots of the Furnio Project:
 
-![Homepage Preview](./assets/ScreenShots/ss1.png)
-![Product Gallery](./assets/ScreenShots/ss2.png)
-![Product Details](./assets/ScreenShots/ss3.png)
-![Cart Page](./assets/ScreenShots/ss4.png)
+<div align="center" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+  <img src="screenshot/ss1.png" alt="Homepage" width="25%" />
+  <img src="screenshot/ss2.png" alt="Gallery" width="25%" />
+</div>
 
+<br/>
+
+<div align="center" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+  <img src="screenshot/ss3.png" alt="Product Details" width="25%" />
+  <img src="screenshot/ss4.png" alt="Cart Page" width="25%" />
+</div>
 ---
 
 ## 🤝 Contributing
