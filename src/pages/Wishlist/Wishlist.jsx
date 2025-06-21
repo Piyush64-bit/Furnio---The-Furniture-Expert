@@ -1,7 +1,7 @@
 import React from 'react';
-import Location from './components/location';
+import Location from './components/Location';
 import Wishlist_products from './components/wishlist_products';
-import Quality_assurance from './components/quality_assurance';
+import Quality_assurance from './components/Quality_assurance';
 
 const Wishlist = () => {
   return (
