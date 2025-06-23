@@ -2,7 +2,7 @@ import React from 'react'
 
 const Quality_assurance = () => {
   return (
-    <div className="bg-[#faf3ea] w-screen flex flex-col md:flex-row justify-between p-5 md:p-[50px] gap-6">
+    <div className="bg-[#faf3ea] w-screen flex flex-col md:flex-row justify-between p-4 md:p-[50px] gap-6">
       <div className="feature-item flex gap-[10px]">
         <img src='src/assets/trophy.png' class="h-[60px]"></img>
         <div className="">
