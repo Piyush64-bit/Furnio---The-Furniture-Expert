@@ -12,7 +12,7 @@ import "../css/Navbar.css";
 import cart1 from "../assets/cart01.png";
 import cart2 from "../assets/cart02.png";
 
-function BasicExample() {
+function navbar() {
   // Cart
   const [showCartPopup, setShowCartPopup] = useState(false);
   const cartRef = useRef();
@@ -80,7 +80,7 @@ function BasicExample() {
   }, [showCartPopup, showWishlistPopup, showSearchPopup]);
 
   return (
-    <Navbar expand="lg" className="bg-white py-3 shadow-sm position-relative">
+    <Navbar expand="lg" className="bg-white py-3 shadow-sm position-sticky top-0 z-100">
       <Container fluid className="px-4">
         <div className="d-flex align-items-center justify-content-between w-100">
           <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
@@ -310,14 +310,22 @@ function BasicExample() {
               </div>
 
               {/* Auth Buttons */}
-              <div className="d-flex gap-2">
-                <Link to="/login" className="btn btn-outline-dark px-3 py-1">
+              <div className="d-flex gap-2 flex-nowrap align-items-center">
+                <Link
+                  to="/login"
+                  className="btn btn-outline-dark px-4 py-1"
+                  style={{ whiteSpace: "nowrap" }}
+                >
                   Sign In
                 </Link>
                 <Link
                   to="/register"
                   className="btn btn-dark px-3 py-1"
-                  style={{ backgroundColor: "#B88E2F", borderColor: "#B88E2F" }}
+                  style={{
+                    backgroundColor: "#B88E2F",
+                    borderColor: "#B88E2F",
+                    whiteSpace: "nowrap",
+                  }}
                 >
                   Sign Up
                 </Link>
@@ -330,4 +338,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default navbar;
