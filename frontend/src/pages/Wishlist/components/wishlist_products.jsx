@@ -2,7 +2,7 @@ import React from 'react';
 
 const Wishlist_products = () => {
   return (
-    <div className="w-screen h-auto p-4">
+    <div className="w-full h-auto p-4">
       <div className="flex flex-col lg:flex-row gap-4">
         <div className="left-panel flex flex-col w-full">
           <div className="bg-[#faf3ea] h-[60px] items-center justify-center hidden md:flex">

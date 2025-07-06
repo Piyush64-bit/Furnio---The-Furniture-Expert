@@ -1,13 +1,13 @@
 import React from 'react'
-import Shopsection from './components/ShopSection'
+import Location from './components/Location'
 import Filter from './components/Filter'
 import CardSection from './components/CardSection';
-import Quality_assurance from './components/Quality_assurance';
+import Quality_assurance from '../../components/Quality_assurance';
 
 const Shop = () => {
   return (
     <div>
-      < Shopsection />
+      < Location />
       < Filter />
       < CardSection />
       < Quality_assurance />

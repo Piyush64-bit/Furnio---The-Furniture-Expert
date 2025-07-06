@@ -1,7 +1,7 @@
 import React from 'react'
 import Location from './components/Location'
 import Bill from './components/Bill'
-import Quality_assurance from './components/Quality_assurance'
+import Quality_assurance from '../../components/Quality_assurance'
 
 const CheckOut = () => {
   return (
