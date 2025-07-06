@@ -9,9 +9,9 @@ const Location = () => {
       {/* Centered content */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center text-black">
         <img src="src/assets/Furnio-logo.png" className="h-[50px] w-[50px]" />
-        <h1 className="text-2xl font-semibold">CHECK OUT</h1>
+        <h1 className="text-2xl font-semibold">SHOP</h1>
         <h6 className="text-sm">
-          <span className="font-bold">Home &gt;</span> CheckOut
+          <span className="font-bold">Home &gt;</span> Shop
         </h6>
       </div>
     </div>

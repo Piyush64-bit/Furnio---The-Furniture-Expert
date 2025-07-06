@@ -1,6 +1,6 @@
 import React from 'react'
 import Location from './components/Location'
-import Quality_assurance from './components/Quality_assurance'
+import Quality_assurance from '../../components/Quality_assurance'
 import Cont from './components/Cont'
 
 const Contact = () => {

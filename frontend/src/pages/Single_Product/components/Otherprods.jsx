@@ -53,7 +53,7 @@ const Otherprods = () => {
           />
         ))}
       </div>
-      <div className="bottombutton flex justify-center">
+      <div className="bottombutton flex justify-center mt-5">
         <button className="py-2 px-10 border-2 border-[#B88E2F] text-[#B88E2F] font-bold hover:bg-[#B88E2F] hover:text-white transition duration-300">
           Show More
         </button>
